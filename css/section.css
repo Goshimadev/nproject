@@ -1,0 +1,248 @@
+               .bg_roadmap {
+                   background-image: url(../images/bg_roadmap.webp);
+                   height: 1200px;
+                   background-repeat: no-repeat;
+                   background-size: contain;
+                   margin-top: -25vh;
+                   z-index: 9999;
+               }
+
+               .bg_title {
+                   position: relative;
+
+               }
+
+               .bg_head_logo {
+                   padding-left: 60px;
+                   padding-top: 60px;
+                   position: absolute;
+                   /*  z-index: 3;*/
+               }
+
+               .bg_rm_logo {
+                   position: absolute;
+                   padding-left: 100px;
+                   padding-top: 60px;
+                   z-index: 9999;
+               }
+
+               .bg_rm_logo .logo-text-left {
+                   color: #9c8fca;
+                   position: relative;
+                   text-transform: uppercase;
+                   font-size: 13pt;
+
+                   padding-left: 20px;
+
+                   letter-spacing: 2px;
+                   display: inline-block;
+                   top: -10px;
+                   z-index: 9999;
+               }
+
+               .bg_rm_logo .logo-text-right {
+                   color: #3bc6f3;
+                   position: relative;
+                   text-transform: uppercase;
+                   font-size: 24pt;
+
+                   padding-left: 430px;
+
+                   letter-spacing: 2px;
+                   display: inline-block;
+                   top: -30px;
+               }
+
+               .rm-text {
+                   color: #8a50cc;
+                   font-size: 31pt;
+                   font-weight: bold;
+                   text-transform: uppercase;
+               }
+
+               .arrow-right {
+                   display: inline-block;
+                   position: relative;
+                   top: -3px;
+                   padding-left: 5px;
+               }
+
+               .start {
+                   position: relative;
+                   padding-left: 30px;
+                   top: 515px;
+               }
+
+               .line-up {
+                   position: relative;
+                   top: 200px;
+               }
+
+               .line-up-fix-item-line {
+                   position: relative;
+                   top: 680px;
+               }
+
+               .rotate-down {
+                   position: relative;
+                   transform: rotate(90deg);
+                   left: 14px;
+               }
+
+               .rotate-up {
+                   position: relative;
+                   transform: rotate(-90deg);
+                   left: 14px;
+                   top: 37px;
+               }
+
+               .rm-item .item-1 {
+                   position: relative;
+                   padding-left: 265px;
+                   top: 234px;
+               }
+
+               .rm-item .item-2 {
+                   position: relative;
+                   padding-left: 425px;
+                   top: -1100px;
+               }
+
+               .rm-item .item-3 {
+                   position: relative;
+                   padding-left: 596px;
+                   top: -206px;
+               }
+
+               .rm-item .item-4 {
+                   position: relative;
+                   padding-left: 759px;
+                   top: -2053px;
+               }
+
+               .fix-item {
+                   position: relative;
+                   padding-left: -19px;
+                   top: 678px !important;
+
+               }
+
+               .rm-item .item-5 {
+                   position: relative;
+                   padding-left: 903px;
+                   top: -459px;
+               }
+
+               .rm-item .item-6 {
+                   position: relative;
+                   padding-left: 1073px;
+                   top: -1683px;
+               }
+
+               .rm-item .item-7 {
+                   position: relative;
+                   padding-left: 1225px;
+                   top: -831px;
+               }
+
+               .rm-item .item-8 {
+                   position: relative;
+                   padding-left: 1363px;
+                   top: -2065px;
+               }
+
+               .rm-item .item-9 {
+                   position: relative;
+                   padding-left: 1501px;
+                   top: -1345px;
+               }
+
+               .rm-item .item-10 {
+                   position: relative;
+                   padding-left: 1615px;
+                   top: -3117px;
+               }
+
+               .download_pdf {
+                   position: relative;
+                   top: -2357px;
+               }
+
+               .text-item-9 {
+                   position: relative;
+                   left: -126px !important;
+                   top: -93px !important;
+               }
+
+               .el-1 .text-up-title {
+                   color: #fff;
+                   text-transform: uppercase;
+                   font-size: 24pt;
+                   font-weight: bold;
+               }
+
+               .el-1 .text-up-desc {
+                   color: #fff;
+                   font-size: 10pt;
+                   font-weight: bold;
+               }
+
+               .el-1 .text-down-title {
+                   color: #fff;
+                   text-transform: uppercase;
+                   font-size: 24pt;
+                   font-weight: bold;
+               }
+
+               .el-1 .text-down-desc {
+                   color: #fff;
+                   font-size: 10pt;
+                   font-weight: bold;
+               }
+
+
+               .el-1 .rm-event {
+                   position: relative;
+                   padding-left: 55px;
+                   top: -40px;
+               }
+
+               .num-up {
+                   position: relative;
+                   color: #8448d4;
+                   font-size: 55pt;
+                   font-weight: bold;
+                   top: 290px;
+                   left: -54px;
+               }
+
+               .num-down {
+                   position: relative;
+                   color: #8448d4;
+                   font-size: 55pt;
+                   font-weight: bold;
+                   top: -370px;
+                   left: -54px;
+               }
+
+
+
+               @media (min-width: 769px) and (max-width: 4098.98px) {
+                   .team222 {
+                       display: none;
+                   }
+
+                   .download-mobile {
+                       display: none;
+                   }
+               }
+
+               @media screen and (max-width: 768px) {
+                   .bg_roadmap {
+                       display: none;
+                   }
+
+                   .download-desktop {
+                       display: none;
+                   }
+               }
